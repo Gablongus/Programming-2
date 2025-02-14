@@ -73,16 +73,16 @@ class MainForm(Form):
 
 
     def Button1Click(self, sender, e):
-        self._listBox1.Text += ("Number\tSquare\tSquare Root\n")
+        self._listBox1.Items.Add("Number\tSquare\tSquare Root\n")
         number = 1
         line = ""
         square = 0
         sqrt = 0
         for num in range(1,50):
             square = number**2
-            sqrt = math.sqrt(number)
-            line = (str(number) + "     " + str(square) + "     " + str(sqrt))
-            self._listBox1.Text += (str(line)+"\n")
+            sqrt = round(math.sqrt(number),4)
+            line = (str(number) + "\t" + str(square) + "\t" + str(sqrt))
+            self._listBox1.Items.Add(str(line)+"\n")
             number += 1
 
    

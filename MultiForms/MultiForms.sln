@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "MultiForms", "MultiForms\MultiForms.pyproj", "{642EFC45-190A-4F72-9D47-33E53A01A422}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{642EFC45-190A-4F72-9D47-33E53A01A422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{642EFC45-190A-4F72-9D47-33E53A01A422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{642EFC45-190A-4F72-9D47-33E53A01A422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{642EFC45-190A-4F72-9D47-33E53A01A422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
