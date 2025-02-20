@@ -58,6 +58,7 @@ class MainForm(Form):
         self._button1.TabIndex = 4
         self._button1.Text = "General Sales"
         self._button1.UseVisualStyleBackColor = False
+        self._button1.Click += self.Button1Click
         # 
         # button2
         # 
@@ -69,6 +70,7 @@ class MainForm(Form):
         self._button2.TabIndex = 5
         self._button2.Text = "Student Sales"
         self._button2.UseVisualStyleBackColor = False
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -93,3 +95,15 @@ class MainForm(Form):
         self.Text = "Pg435TicketSales"
         self.ResumeLayout(False)
 
+
+    def Button1Click(self, sender, e):
+        from Public import *
+        public = Public(self)
+        public.Show()
+        self.Hide()
+
+    def Button2Click(self, sender, e):
+        from Student import *
+        student = Student(self)
+        student.Show()
+        self.Hide()

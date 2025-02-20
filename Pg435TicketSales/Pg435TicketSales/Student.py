@@ -6,8 +6,9 @@ from System.Drawing import *
 from System.Windows.Forms import *
 
 class Student(Form):
-    def __init__(self):
+    def __init__(self, parent):
         self.InitializeComponent()
+        self.myparent = parent
     
     def InitializeComponent(self):
         self._label1 = System.Windows.Forms.Label()
