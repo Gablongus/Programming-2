@@ -1,0 +1,14 @@
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\bin\Debug\Pg435TicketSales.exe.config
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\bin\Debug\Pg435TicketSales.exe
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\bin\Debug\Pg435TicketSales.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\obj\Debug\Pg435TicketSales.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\obj\Debug\Pg435TicketSales.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\obj\Debug\Pg435TicketSales.Public.resources
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\obj\Debug\Pg435TicketSales.Student.resources
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\obj\Debug\Pg435TicketSales.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\Pg435TicketSales\Pg435TicketSales\obj\Debug\Pg435TicketSales.exe
