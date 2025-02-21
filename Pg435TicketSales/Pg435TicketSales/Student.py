@@ -211,7 +211,6 @@ class Student(Form):
         self.Controls.Add(self._label1)
         self.Name = "Student"
         self.Text = "Student"
-        self.Load += self.StudentLoad
         self.ResumeLayout(False)
         self.PerformLayout()
 

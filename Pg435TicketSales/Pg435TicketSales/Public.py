@@ -9,6 +9,7 @@ class Public(Form):
     def __init__(self, parent):
         self.InitializeComponent()
         self.myparent = parent
+        self.PriceEachTicket = 0
         
         
     
@@ -51,6 +52,7 @@ class Public(Form):
         self._button1.TabIndex = 28
         self._button1.Text = "Calculate"
         self._button1.UseVisualStyleBackColor = False
+        self._button1.Click += self.Button1Click
         # 
         # label9
         # 
@@ -137,6 +139,7 @@ class Public(Form):
         self._radioButton3.TabStop = True
         self._radioButton3.Text = "Section C"
         self._radioButton3.UseVisualStyleBackColor = False
+        self._radioButton3.CheckedChanged += self.RadioButton3CheckedChanged
         # 
         # radioButton2
         # 
@@ -149,6 +152,7 @@ class Public(Form):
         self._radioButton2.TabStop = True
         self._radioButton2.Text = "Section B"
         self._radioButton2.UseVisualStyleBackColor = False
+        self._radioButton2.CheckedChanged += self.RadioButton2CheckedChanged
         # 
         # radioButton1
         # 
@@ -161,6 +165,7 @@ class Public(Form):
         self._radioButton1.TabStop = True
         self._radioButton1.Text = "Section A"
         self._radioButton1.UseVisualStyleBackColor = False
+        self._radioButton1.CheckedChanged += self.RadioButton1CheckedChanged
         # 
         # label2
         # 
@@ -215,4 +220,38 @@ class Public(Form):
         self.Text = "Public"
         self.ResumeLayout(False)
         self.PerformLayout()
+    
+    
+    def CalcTax(cost, decTAXRATE):
+        decTAXRATE = 0.06
+        return cost * decTAXRATE
+    
+    def RadioButton1CheckedChanged(self, sender, e):
+        self.PriceEachTicket = 20
+        
 
+    def RadioButton2CheckedChanged(self, sender, e):
+        self.PriceEachTicket = 15
+        
+        
+    def RadioButton3CheckedChanged(self, sender, e):
+        self.PriceEachTicket = 10
+
+    def Button1Click(self, sender, e):
+        NumTickets = 0
+        TicketCost = 0.0
+        SalesTax = 0.0
+        Total = 0.0
+        
+        
+        
+        NumTickets = int(self._textBox1.Text)
+        TicketCost = NumTickets * self.PriceEachTicket
+        SalesTax = self.CalcTax(TicketCost)
+        Total = TicketCost + SalesTax
+        
+        self._label7.Text = str(round(TicketCost), 2)
+        self._label8.Text = str(round(SalesTax), 2)
+        self._label9.Text = str(round(Total) , 2)
+
+    
