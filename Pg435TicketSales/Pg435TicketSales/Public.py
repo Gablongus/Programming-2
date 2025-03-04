@@ -41,6 +41,7 @@ class Public(Form):
         self._button2.TabIndex = 29
         self._button2.Text = "Close"
         self._button2.UseVisualStyleBackColor = False
+        self._button2.Click += self.Button2Click
         # 
         # button1
         # 
@@ -222,20 +223,20 @@ class Public(Form):
         self.PerformLayout()
     
     
-    def CalcTax(cost, decTAXRATE):
+    def CalcTax(self, cost):
         decTAXRATE = 0.06
-        return cost * decTAXRATE
+        return float(cost * decTAXRATE)
     
     def RadioButton1CheckedChanged(self, sender, e):
-        self.PriceEachTicket = 20
+        self.PriceEachTicket = 20.0
         
 
     def RadioButton2CheckedChanged(self, sender, e):
-        self.PriceEachTicket = 15
+        self.PriceEachTicket = 15.0
         
         
     def RadioButton3CheckedChanged(self, sender, e):
-        self.PriceEachTicket = 10
+        self.PriceEachTicket = 10.0
 
     def Button1Click(self, sender, e):
         NumTickets = 0
@@ -245,13 +246,17 @@ class Public(Form):
         
         
         
-        NumTickets = int(self._textBox1.Text)
+        NumTickets = float(self._textBox1.Text)
         TicketCost = NumTickets * self.PriceEachTicket
         SalesTax = self.CalcTax(TicketCost)
         Total = TicketCost + SalesTax
         
-        self._label7.Text = str(round(TicketCost), 2)
-        self._label8.Text = str(round(SalesTax), 2)
-        self._label9.Text = str(round(Total) , 2)
+        self._label7.Text = str(round(TicketCost, 2))
+        self._label8.Text = str(round(SalesTax, 2))
+        self._label9.Text = str(round(Total, 2))
 
     
+
+    def Button2Click(self, sender, e):
+        self.myparent.Show()
+        self.Hide()
