@@ -10,6 +10,7 @@ class MainForm(Form):
         self.deckprice = 0
         self.truckprice = 0
         self.wheelprice = 0
+        self.shopprice = 0
         
     
     def InitializeComponent(self):
@@ -241,6 +242,7 @@ class MainForm(Form):
         self._checkBox1.TabIndex = 0
         self._checkBox1.Text = "Grip Tape"
         self._checkBox1.UseVisualStyleBackColor = True
+        self._checkBox1.CheckedChanged += self.CheckBox1CheckedChanged
         # 
         # checkBox2
         # 
@@ -251,6 +253,7 @@ class MainForm(Form):
         self._checkBox2.TabIndex = 1
         self._checkBox2.Text = "Bearings"
         self._checkBox2.UseVisualStyleBackColor = True
+        self._checkBox2.CheckedChanged += self.CheckBox2CheckedChanged
         # 
         # checkBox3
         # 
@@ -261,6 +264,7 @@ class MainForm(Form):
         self._checkBox3.TabIndex = 2
         self._checkBox3.Text = "Riser Pads"
         self._checkBox3.UseVisualStyleBackColor = True
+        self._checkBox3.CheckedChanged += self.CheckBox3CheckedChanged
         # 
         # checkBox4
         # 
@@ -271,6 +275,7 @@ class MainForm(Form):
         self._checkBox4.TabIndex = 3
         self._checkBox4.Text = "Nuts And Bolts Kit"
         self._checkBox4.UseVisualStyleBackColor = True
+        self._checkBox4.CheckedChanged += self.CheckBox4CheckedChanged
         # 
         # checkBox5
         # 
@@ -281,6 +286,7 @@ class MainForm(Form):
         self._checkBox5.TabIndex = 4
         self._checkBox5.Text = "Assembely"
         self._checkBox5.UseVisualStyleBackColor = True
+        self._checkBox5.CheckedChanged += self.CheckBox5CheckedChanged
         # 
         # button1
         # 
@@ -304,6 +310,7 @@ class MainForm(Form):
         self._button2.TabIndex = 7
         self._button2.Text = "Clear"
         self._button2.UseVisualStyleBackColor = False
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -315,6 +322,7 @@ class MainForm(Form):
         self._button3.TabIndex = 8
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = False
+        self._button3.Click += self.Button3Click
         # 
         # label1
         # 
@@ -437,4 +445,33 @@ class MainForm(Form):
 
     def Button1Click(self, sender, e):
         customtotal = self.deckprice + self.truckprice + self.wheelprice
+        total = customtotal + self.shopprice
+        tax = (0.06 * total)
+        self._label4.Text = "$" + str(total)
+        self._label5.Text = "$" + str(tax)
+        self._label6.Text = "$" + str(total + tax)
         
+
+    def CheckBox1CheckedChanged(self, sender, e):
+        self.shopprice += 10
+
+    def CheckBox2CheckedChanged(self, sender, e):
+        self.shopprice += 30
+
+    def CheckBox3CheckedChanged(self, sender, e):
+        self.shopprice += 2
+
+    def CheckBox4CheckedChanged(self, sender, e):
+        self.shopprice += 3
+
+    def CheckBox5CheckedChanged(self, sender, e):
+        self.shopprice += 10
+
+    def Button2Click(self, sender, e):
+        self._label4.Text = ""
+        self._label5.Text = ""
+        self._label6.Text = ""
+
+    def Button3Click(self, sender, e):
+        if self.checkBox1.isChecked():
+            Application.Exit()
