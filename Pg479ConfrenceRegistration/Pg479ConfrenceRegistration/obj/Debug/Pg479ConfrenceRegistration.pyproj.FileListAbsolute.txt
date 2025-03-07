@@ -1,0 +1,13 @@
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\bin\Debug\Pg479ConfrenceRegistration.exe.config
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\bin\Debug\Pg479ConfrenceRegistration.exe
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\bin\Debug\Pg479ConfrenceRegistration.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\bin\Debug\IronPython.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\bin\Debug\IronPython.Modules.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\bin\Debug\Microsoft.Scripting.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\obj\Debug\Pg479ConfrenceRegistration.pyprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\obj\Debug\Pg479ConfrenceRegistration.ConfrenceOptions.resources
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\obj\Debug\Pg479ConfrenceRegistration.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\obj\Debug\Pg479ConfrenceRegistration.pyproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\Pg479ConfrenceRegistration\Pg479ConfrenceRegistration\obj\Debug\Pg479ConfrenceRegistration.exe
