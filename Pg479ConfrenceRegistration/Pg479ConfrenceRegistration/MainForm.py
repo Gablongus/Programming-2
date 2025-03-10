@@ -5,8 +5,9 @@ from System.Drawing import *
 from System.Windows.Forms import *
 
 class MainForm(Form):
-    def __init__(self):
+    def __init__(self, total):
         self.InitializeComponent()
+        self.total = total 
     
     def InitializeComponent(self):
         self._groupBox1 = System.Windows.Forms.GroupBox()
@@ -256,6 +257,7 @@ class MainForm(Form):
         self.Controls.Add(self._groupBox1)
         self.Name = "MainForm"
         self.Text = "Pg479ConfrenceRegistration"
+        self.Load += self.MainFormLoad
         self._groupBox1.ResumeLayout(False)
         self._groupBox1.PerformLayout()
         self.ResumeLayout(False)
@@ -266,3 +268,8 @@ class MainForm(Form):
         confrence = ConfrenceOptions(self)
         confrence.Show()
         self.Hide()
+        
+    
+
+    def MainFormLoad(self, sender, e):
+        self._label10.Text = str(total)
