@@ -269,7 +269,9 @@ class MainForm(Form):
         confrence.Show()
         self.Hide()
         
+        
     
 
     def MainFormLoad(self, sender, e):
-        self._label10.Text = str(total)
+        total = self.total
+        self._label10.Text = str(self.total)

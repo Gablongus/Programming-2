@@ -15,10 +15,10 @@ class MainForm(Form):
         # 
         # button1
         # 
-        self._button1.Font = System.Drawing.Font("Microsoft Sans Serif", 15.75, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._button1.Location = System.Drawing.Point(122, 91)
+        self._button1.Font = System.Drawing.Font("Microsoft Sans Serif", 16, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._button1.Location = System.Drawing.Point(115, 178)
         self._button1.Name = "button1"
-        self._button1.Size = System.Drawing.Size(170, 95)
+        self._button1.Size = System.Drawing.Size(227, 137)
         self._button1.TabIndex = 0
         self._button1.Text = "Show New Form"
         self._button1.UseVisualStyleBackColor = True
@@ -26,15 +26,15 @@ class MainForm(Form):
         # 
         # textBox1
         # 
-        self._textBox1.Font = System.Drawing.Font("Microsoft Sans Serif", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._textBox1.Location = System.Drawing.Point(13, 24)
+        self._textBox1.Font = System.Drawing.Font("Microsoft Sans Serif", 18)
+        self._textBox1.Location = System.Drawing.Point(23, 36)
         self._textBox1.Name = "textBox1"
-        self._textBox1.Size = System.Drawing.Size(409, 26)
+        self._textBox1.Size = System.Drawing.Size(427, 48)
         self._textBox1.TabIndex = 1
         # 
         # MainForm
         # 
-        self.ClientSize = System.Drawing.Size(450, 317)
+        self.ClientSize = System.Drawing.Size(462, 369)
         self.Controls.Add(self._textBox1)
         self.Controls.Add(self._button1)
         self.Name = "MainForm"
@@ -49,3 +49,8 @@ class MainForm(Form):
         form1 = Form1(self, msg)
         form1.Show()
         self.Hide()
+        
+        # from SecondForm import *
+        # form2 = SecondForm()
+        # form2.Show()
+        pass

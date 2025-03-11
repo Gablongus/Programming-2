@@ -6,10 +6,9 @@ from System.Drawing import *
 from System.Windows.Forms import *
 
 class ConfrenceOptions(Form):
-    def __init__(self, parent):
+    def __init__(self, parent, total):
         self.InitializeComponent()
         self.myparent = parent
-        self.total = 0
     
     def InitializeComponent(self):
         self._groupBox1 = System.Windows.Forms.GroupBox()
@@ -133,28 +132,28 @@ class ConfrenceOptions(Form):
             self.total += 30
         if self._checkedListBox1.GetItemChecked(0):
             if self._checkBox1.Checked:
-                self.total += 295
+                total += 295
                 error = False
             else:
                 MessageBox.Show("You Need to select Conference Registration first!")
                 error = True
         if self._checkedListBox1.GetItemChecked(1):
             if self._checkBox1.Checked:
-                self.total += 295
+                total += 295
                 error = False
             else:
                 MessageBox.Show("You Need to select Conference Registration first!")
                 error = True
         if self._checkedListBox1.GetItemChecked(2):
             if self._checkBox1.Checked:
-                self.total += 395
+                total += 395
                 error = False
             else:
                 MessageBox.Show("You Need to select Conference Registration first!")
                 error = True
         if self._checkedListBox1.GetItemChecked(3):
             if self._checkBox1.Checked:
-                self.total += 395
+                total += 395
                 error = False
             else:
                 MessageBox.Show("You Need to select Conference Registration first!")
@@ -162,4 +161,5 @@ class ConfrenceOptions(Form):
         if error == False:
             self.myparent.Show()
             self.Close()
+            
             
