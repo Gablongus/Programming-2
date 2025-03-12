@@ -19,4 +19,4 @@ class Salesperson:
 
     # Override the str() Dunder/Magic Method (toString)
     def __str__(self):
-        return f"{self.id}\t\t{self.code}\t\t{self.sales}\t{self.com}"
+        return f"{self.id}\t\t{self.code}\t\t{self.sales}\t{self.comm}"

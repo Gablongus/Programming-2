@@ -8,6 +8,8 @@ class MainForm(Form):
     def __init__(self):
         self.InitializeComponent()
         self.maintotal = 0
+        self.mealtotal = 0
+        self.total = 0
     
     def InitializeComponent(self):
         self._label1 = System.Windows.Forms.Label()
@@ -111,8 +113,9 @@ class MainForm(Form):
         self._button2.Name = "button2"
         self._button2.Size = System.Drawing.Size(218, 55)
         self._button2.TabIndex = 7
-        self._button2.Text = "Clear"
+        self._button2.Text = "Caclulate"
         self._button2.UseVisualStyleBackColor = False
+        self._button2.Click += self.Button2Click
         # 
         # button3
         # 
@@ -124,12 +127,13 @@ class MainForm(Form):
         self._button3.TabIndex = 8
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = False
+        self._button3.Click += self.Button3Click
         # 
         # label3
         # 
         self._label3.BackColor = System.Drawing.Color.LightCyan
         self._label3.Font = System.Drawing.Font("Microsoft Sans Serif", 12, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._label3.Location = System.Drawing.Point(67, 266)
+        self._label3.Location = System.Drawing.Point(22, 266)
         self._label3.Name = "label3"
         self._label3.Size = System.Drawing.Size(182, 34)
         self._label3.TabIndex = 9
@@ -162,6 +166,7 @@ class MainForm(Form):
         self.Controls.Add(self._label1)
         self.Name = "MainForm"
         self.Text = "Pg484DormAndMealPlans"
+        self.Load += self.MainFormLoad
         self.ResumeLayout(False)
 
 
@@ -170,3 +175,27 @@ class MainForm(Form):
         mealplans = MealPlans(self)
         mealplans.Show()
         self.Hide()
+
+    
+        
+
+    def Button2Click(self, sender, e):
+        if self._radioButton1.Checked:
+            self.maintotal = 1500
+        if self._radioButton2.Checked:
+            self.maintotal = 1600
+        if self._radioButton3.Checked:
+            self.maintotal = 1200
+        if self._radioButton4.Checked:
+            self.maintotal = 1800
+        self.total = self.mealtotal + self.maintotal
+        self._label4.Text = str(self.total)
+
+    def MainFormLoad(self, sender, e):
+        self.total = self.mealtotal + self.maintotal
+        self._label4.Text = str(self.total)
+
+        
+
+    def Button3Click(self, sender, e):
+        Application.Exit()

@@ -39,6 +39,7 @@ class MealPlans(Form):
         self._radioButton1.TabStop = True
         self._radioButton1.Text = "7 meals per week       $560 per semester"
         self._radioButton1.UseVisualStyleBackColor = False
+        self._radioButton1.CheckedChanged += self.RadioButton1CheckedChanged
         # 
         # radioButton2
         # 
@@ -51,6 +52,7 @@ class MealPlans(Form):
         self._radioButton2.TabStop = True
         self._radioButton2.Text = "14 meals per week     $1,095 per semester"
         self._radioButton2.UseVisualStyleBackColor = False
+        self._radioButton2.CheckedChanged += self.RadioButton2CheckedChanged
         # 
         # radioButton3
         # 
@@ -63,6 +65,7 @@ class MealPlans(Form):
         self._radioButton3.TabStop = True
         self._radioButton3.Text = "Unlimited meals          $1,500 per semester"
         self._radioButton3.UseVisualStyleBackColor = False
+        self._radioButton3.CheckedChanged += self.RadioButton3CheckedChanged
         # 
         # button1
         # 
@@ -74,6 +77,7 @@ class MealPlans(Form):
         self._button1.TabIndex = 5
         self._button1.Text = "Close and Save"
         self._button1.UseVisualStyleBackColor = False
+        self._button1.Click += self.Button1Click
         # 
         # MealPlans
         # 
@@ -88,3 +92,16 @@ class MealPlans(Form):
         self.Text = "MealPlans"
         self.ResumeLayout(False)
 
+
+    def Button1Click(self, sender, e):
+        self.Hide()
+        self.myparent.Show()
+
+    def RadioButton1CheckedChanged(self, sender, e):
+        self.myparent.mealtotal = 560
+
+    def RadioButton2CheckedChanged(self, sender, e):
+        self.myparent.mealtotal = 1096
+
+    def RadioButton3CheckedChanged(self, sender, e):
+        self.myparent.mealtotal = 1500
