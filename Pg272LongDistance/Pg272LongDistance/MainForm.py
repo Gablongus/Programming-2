@@ -7,6 +7,7 @@ from System.Windows.Forms import *
 class MainForm(Form):
     def __init__(self):
         self.InitializeComponent()
+        self.rate = 0.0
     
     def InitializeComponent(self):
         self._radioButton1 = System.Windows.Forms.RadioButton()
@@ -165,22 +166,22 @@ class MainForm(Form):
    
         
     def RadioButton1CheckedChanged(self, sender, e):
-        rate = 0.07
+        self.rate = 0.07
         
     
     def RadioButton2CheckedChanged(self, sender, e):
-        rate = 0.12
+        self.rate = 0.12
         
        
     def RadioButton3CheckedChanged(self, sender, e):
-        rate = 0.05
+        self.rate = 0.05
         
         
     
 
     def Button1Click(self, sender, e):
-        min = self._textBox1.Text
-        cost = min * rate
+        min = int(self._textBox1.Text)
+        cost = min * self.rate
         self._label4.Text = str(cost)
         
 

@@ -9,14 +9,12 @@ class Student(Form):
     def __init__(self, parent):
         self.InitializeComponent()
         self.myparent = parent
+        
     
     def InitializeComponent(self):
         self._label1 = System.Windows.Forms.Label()
         self._textBox1 = System.Windows.Forms.TextBox()
         self._label2 = System.Windows.Forms.Label()
-        self._radioButton1 = System.Windows.Forms.RadioButton()
-        self._radioButton2 = System.Windows.Forms.RadioButton()
-        self._radioButton3 = System.Windows.Forms.RadioButton()
         self._label3 = System.Windows.Forms.Label()
         self._label4 = System.Windows.Forms.Label()
         self._label5 = System.Windows.Forms.Label()
@@ -26,6 +24,7 @@ class Student(Form):
         self._label9 = System.Windows.Forms.Label()
         self._button1 = System.Windows.Forms.Button()
         self._button2 = System.Windows.Forms.Button()
+        self._label10 = System.Windows.Forms.Label()
         self.SuspendLayout()
         # 
         # label1
@@ -57,42 +56,6 @@ class Student(Form):
         self._label2.Size = System.Drawing.Size(173, 174)
         self._label2.TabIndex = 2
         self._label2.Text = "Section:"
-        # 
-        # radioButton1
-        # 
-        self._radioButton1.BackColor = System.Drawing.SystemColors.ButtonFace
-        self._radioButton1.Font = System.Drawing.Font("Microsoft Sans Serif", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._radioButton1.Location = System.Drawing.Point(38, 142)
-        self._radioButton1.Name = "radioButton1"
-        self._radioButton1.Size = System.Drawing.Size(134, 24)
-        self._radioButton1.TabIndex = 3
-        self._radioButton1.TabStop = True
-        self._radioButton1.Text = "Section A"
-        self._radioButton1.UseVisualStyleBackColor = False
-        # 
-        # radioButton2
-        # 
-        self._radioButton2.BackColor = System.Drawing.SystemColors.ButtonFace
-        self._radioButton2.Font = System.Drawing.Font("Microsoft Sans Serif", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._radioButton2.Location = System.Drawing.Point(38, 185)
-        self._radioButton2.Name = "radioButton2"
-        self._radioButton2.Size = System.Drawing.Size(134, 24)
-        self._radioButton2.TabIndex = 4
-        self._radioButton2.TabStop = True
-        self._radioButton2.Text = "Section B"
-        self._radioButton2.UseVisualStyleBackColor = False
-        # 
-        # radioButton3
-        # 
-        self._radioButton3.BackColor = System.Drawing.SystemColors.ButtonFace
-        self._radioButton3.Font = System.Drawing.Font("Microsoft Sans Serif", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
-        self._radioButton3.Location = System.Drawing.Point(38, 234)
-        self._radioButton3.Name = "radioButton3"
-        self._radioButton3.Size = System.Drawing.Size(134, 24)
-        self._radioButton3.TabIndex = 5
-        self._radioButton3.TabStop = True
-        self._radioButton3.Text = "Section C"
-        self._radioButton3.UseVisualStyleBackColor = False
         # 
         # label3
         # 
@@ -178,6 +141,7 @@ class Student(Form):
         self._button1.TabIndex = 13
         self._button1.Text = "Calculate"
         self._button1.UseVisualStyleBackColor = False
+        self._button1.Click += self.Button1Click
         # 
         # button2
         # 
@@ -189,11 +153,23 @@ class Student(Form):
         self._button2.TabIndex = 14
         self._button2.Text = "Close"
         self._button2.UseVisualStyleBackColor = False
+        self._button2.Click += self.Button2Click
+        # 
+        # label10
+        # 
+        self._label10.BackColor = System.Drawing.SystemColors.ButtonFace
+        self._label10.Font = System.Drawing.Font("Microsoft YaHei", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label10.Location = System.Drawing.Point(25, 149)
+        self._label10.Name = "label10"
+        self._label10.Size = System.Drawing.Size(142, 108)
+        self._label10.TabIndex = 15
+        self._label10.Text = "All students are in student section."
         # 
         # Student
         # 
         self.BackColor = System.Drawing.SystemColors.GradientActiveCaption
         self.ClientSize = System.Drawing.Size(453, 334)
+        self.Controls.Add(self._label10)
         self.Controls.Add(self._button2)
         self.Controls.Add(self._button1)
         self.Controls.Add(self._label9)
@@ -203,15 +179,44 @@ class Student(Form):
         self.Controls.Add(self._label5)
         self.Controls.Add(self._label4)
         self.Controls.Add(self._label3)
-        self.Controls.Add(self._radioButton3)
-        self.Controls.Add(self._radioButton2)
-        self.Controls.Add(self._radioButton1)
         self.Controls.Add(self._label2)
         self.Controls.Add(self._textBox1)
         self.Controls.Add(self._label1)
         self.Name = "Student"
         self.Text = "Student"
-        self.Load += self.StudentLoad
         self.ResumeLayout(False)
         self.PerformLayout()
 
+
+    def CalcTax(self, cost):
+        decTAXRATE = 0.06
+        return float(cost * decTAXRATE)
+    
+
+    def Button1Click(self, sender, e):
+        NumTickets = 0
+        TicketCost = 0.0
+        SalesTax = 0.0
+        Total = 0.0
+        PriceEachTicket = 7
+        
+        
+        
+        NumTickets = float(self._textBox1.Text)
+        TicketCost = NumTickets * PriceEachTicket
+        SalesTax = self.CalcTax(TicketCost)
+        Total = TicketCost + SalesTax
+        
+        self._label7.Text = str(round(TicketCost, 2))
+        self._label8.Text = str(round(SalesTax, 2))
+        self._label9.Text = str(round(Total, 2))
+
+    
+
+    def Button2Click(self, sender, e):
+        self.myparent.Show()
+        self.Hide()
+
+    
+
+   

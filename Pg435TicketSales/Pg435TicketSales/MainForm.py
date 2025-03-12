@@ -80,6 +80,7 @@ class MainForm(Form):
         self._button3.TabIndex = 6
         self._button3.Text = "Exit"
         self._button3.UseVisualStyleBackColor = True
+        self._button3.Click += self.Button3Click
         # 
         # MainForm
         # 
@@ -107,3 +108,6 @@ class MainForm(Form):
         student = Student(self)
         student.Show()
         self.Hide()
+
+    def Button3Click(self, sender, e):
+        Application.Exit()

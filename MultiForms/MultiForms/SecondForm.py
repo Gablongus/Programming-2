@@ -1,5 +1,4 @@
-﻿
-import System.Drawing
+﻿import System.Drawing
 import System.Windows.Forms
 
 from System.Drawing import *
@@ -12,4 +11,3 @@ class SecondForm(Form):
     def InitializeComponent(self):
         self.Name = "SecondForm"
         self.Text = "SecondForm"
-
