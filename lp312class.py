@@ -23,7 +23,7 @@ class Budget:
         print(f"Clothing:\t\t {self._percents[1]}%")
         print(f"Entertainment:\t {self._percents[2]}%")
         print(f"Rent:\t\t\t {self._percents[3]}%")
-        print(f"Total amount spent: ${self._budget:.2f}")
+
 
 def main():
     print("Enter the amount spent last month on the following items:\n")
