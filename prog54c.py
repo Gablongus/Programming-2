@@ -18,18 +18,16 @@ class Circle:
     def get_area(self):
         return self._area
 
-    def get_perimeter(self):
-        return self._perim
+    def get_circumference(self):
+        return self._circum
 
 def main():
-    length = int(input("Enter length: "))
-    width = int(input("Enter Width: "))
-    # Make a new 'Shape' object/instance
-    shape = Shape(length, width)  # Call 'Shape' constructor/__init__ method
-    # shape.length = 5
-    shape.calculate()
-    print("Area:", shape.get_area())
-    print("Perimeter:", shape.get_perimeter())
+    radius = int(input("Enter Radius: "))
+    # Make a new 'Circle' object/instance
+    circle = Circle(radius)
+    circle.calculate()
+    print("Area:", circle.get_area())
+    print("Circumference:", circle.get_circumference())
     pass
 
 

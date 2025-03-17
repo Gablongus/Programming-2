@@ -27,9 +27,10 @@ class MainForm(Form):
         # 
         # label1
         # 
-        self._label1.Location = System.Drawing.Point(264, 337)
+        self._label1.Font = System.Drawing.Font("Microsoft Sans Serif", 11.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
+        self._label1.Location = System.Drawing.Point(231, 246)
         self._label1.Name = "label1"
-        self._label1.Size = System.Drawing.Size(100, 23)
+        self._label1.Size = System.Drawing.Size(217, 118)
         self._label1.TabIndex = 0
         self._label1.Text = "Hello, World!"
         # 
@@ -76,35 +77,35 @@ class MainForm(Form):
         # mnuColorRed
         # 
         self._mnuColorRed.Name = "mnuColorRed"
-        self._mnuColorRed.Size = System.Drawing.Size(152, 22)
+        self._mnuColorRed.Size = System.Drawing.Size(108, 22)
         self._mnuColorRed.Text = "&Red"
         self._mnuColorRed.Click += self.MnuColorRedClick
         # 
         # mnuColorGreen
         # 
         self._mnuColorGreen.Name = "mnuColorGreen"
-        self._mnuColorGreen.Size = System.Drawing.Size(152, 22)
+        self._mnuColorGreen.Size = System.Drawing.Size(108, 22)
         self._mnuColorGreen.Text = "&Green"
         self._mnuColorGreen.Click += self.MnuColorGreenClick
         # 
         # mnuColorBlue
         # 
         self._mnuColorBlue.Name = "mnuColorBlue"
-        self._mnuColorBlue.Size = System.Drawing.Size(152, 22)
+        self._mnuColorBlue.Size = System.Drawing.Size(108, 22)
         self._mnuColorBlue.Text = "&Blue"
         self._mnuColorBlue.Click += self.MnuColorBlueClick
         # 
         # mnuColorBlack
         # 
         self._mnuColorBlack.Name = "mnuColorBlack"
-        self._mnuColorBlack.Size = System.Drawing.Size(152, 22)
+        self._mnuColorBlack.Size = System.Drawing.Size(108, 22)
         self._mnuColorBlack.Text = "&Black"
         self._mnuColorBlack.Click += self.MnuColorBlackClick
         # 
         # toolStripMenuItem1
         # 
         self._toolStripMenuItem1.Name = "toolStripMenuItem1"
-        self._toolStripMenuItem1.Size = System.Drawing.Size(149, 6)
+        self._toolStripMenuItem1.Size = System.Drawing.Size(105, 6)
         # 
         # mnuColorVisible
         # 
@@ -112,7 +113,7 @@ class MainForm(Form):
         self._mnuColorVisible.CheckOnClick = True
         self._mnuColorVisible.CheckState = System.Windows.Forms.CheckState.Checked
         self._mnuColorVisible.Name = "mnuColorVisible"
-        self._mnuColorVisible.Size = System.Drawing.Size(152, 22)
+        self._mnuColorVisible.Size = System.Drawing.Size(108, 22)
         self._mnuColorVisible.Text = "Visible"
         self._mnuColorVisible.Click += self.MnuColorVisibleClick
         # 
@@ -127,7 +128,7 @@ class MainForm(Form):
         # mnuHelpAbout
         # 
         self._mnuHelpAbout.Name = "mnuHelpAbout"
-        self._mnuHelpAbout.Size = System.Drawing.Size(152, 22)
+        self._mnuHelpAbout.Size = System.Drawing.Size(107, 22)
         self._mnuHelpAbout.Text = "&About"
         self._mnuHelpAbout.Click += self.MnuHelpAboutClick
         # 
