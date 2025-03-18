@@ -1,12 +1,24 @@
 def main():
     try:
         with open("Langdat/prog215a.dat", 'r') as f:
+            more = 0
+            less = 0
+            total = 0
+            index = 0
             for line in f:
                 data = line.split(" ")
                 # TODO: figure this the heck out because you have no idea what you are doing.
-                id = int(data[0])
-                code = int(data[1])
-                sales = float(data[2])
+                for i in data:
+                    if int(data[index]) >= 500:
+                        more += 1
+                    elif int(data[index]) < 500:
+                        less += 1
+                    total += 1
+                    index += 1
+            print("More than or equal to 500: " + str(more))
+            print("Less than 500: " + str(less))
+            print("Total numbers: " + str(total))
+
 
                 # Option 2: List Comprehension
                 # id, code, sales = [float(x) for x in line.split(" ")]
