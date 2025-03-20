@@ -4,17 +4,16 @@ def main():
             more = 0
             less = 0
             total = 0
-            index = 0
+
             for line in f:
                 data = line.split(" ")
-                # TODO: figure this the heck out because you have no idea what you are doing.
                 for i in data:
-                    if int(data[index]) >= 500:
+                    if int(data[0]) >= 500:
                         more += 1
-                    elif int(data[index]) < 500:
+                    elif int(data[0]) < 500:
                         less += 1
                     total += 1
-                    index += 1
+
             print("More than or equal to 500: " + str(more))
             print("Less than 500: " + str(less))
             print("Total numbers: " + str(total))
