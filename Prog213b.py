@@ -1,6 +1,6 @@
 with (open("Langdat/prog213b.txt", 'r') as f):
+    num = int(f.readline())
     for line in f:
-        num = int(f.readline())
         cost = 0.00
         if 99 >= num >= 0:
             cost = 5.95
@@ -10,10 +10,10 @@ with (open("Langdat/prog213b.txt", 'r') as f):
             cost = 5.40
         elif 300 >= num:
             cost = 5.15
-        num = int(f.readline())
         print("Amount: ", num)
         print("Price: ", cost)
         print("Amount Due: ", cost*num)
         print("")
+        num = int(f.readline())
 
 
