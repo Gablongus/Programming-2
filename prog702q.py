@@ -44,17 +44,12 @@ def main():
                     totalnum += 1
                     trucktires += vehicle.tires
                 elif isinstance(vehicles, Bus):
-                    #TODO: actually finally figure ts out
                     tot += vehicles.value
                     ht = vehicles.hometown
                     if len(ht) > len(largehome):
                         largehome = ht
                     totalnum += 1
                     bustires += vehicles.tires
-
-
-
-
             print("Total Number of Vehicles:", totalnum)
             print("Total Worth of Cars: ", cartot)
             print("Total Worth of Vehicles ", tot)
