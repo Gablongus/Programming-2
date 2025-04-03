@@ -4,8 +4,8 @@ from cl702q import  *
 def main():
     try:
         vehicles: list[Vehicle] = []
-        with (open("Langdat/prog702q.txt", 'r') as f):
-            num = int(f.readline())
+        with (open("../Langdat/prog702q.txt", 'r') as f):
+            num = f.readline()
             while num != 99:
                 name = f.readline()
                 tires = f.readline()
@@ -21,7 +21,7 @@ def main():
                     hometown = f.readline().strip()
                     v = Bus(name, tires, hometown)
                     vehicles.append(v)
-                num = int(f.readline())
+                num = f.readline()
             totalnum = 0   #Total Number of Vehicles
             cartot = 0.0   #Total Amount that CARS are worth
             tot = 0.0      #Total Amount that all Vehicles are worth
