@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\C#\Program54a\obj\Debug\Program54a.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\C#\Program54a\obj\Debug\Program54a.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\C#\Program54a\obj\Debug\Program54a.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\C#\Program54a\bin\Debug\Program54a.exe
+C:\Users\schraedl.g\Desktop\Programming 2\C#\Program54a\bin\Debug\Program54a.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\C#\Program54a\obj\Debug\Program54a.exe
+C:\Users\schraedl.g\Desktop\Programming 2\C#\Program54a\obj\Debug\Program54a.pdb
