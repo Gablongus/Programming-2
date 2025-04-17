@@ -1,0 +1,15 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\bin\Debug\net6.0\Lang52aConsole.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\bin\Debug\net6.0\Lang52aConsole.deps.json
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\bin\Debug\net6.0\Lang52aConsole.runtimeconfig.json
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\bin\Debug\net6.0\Lang52aConsole.dll
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\bin\Debug\net6.0\ref\Lang52aConsole.dll
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\bin\Debug\net6.0\Lang52aConsole.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\obj\Debug\net6.0\Lang52aConsole.csproj.AssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\obj\Debug\net6.0\Lang52aConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\obj\Debug\net6.0\Lang52aConsole.AssemblyInfoInputs.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\obj\Debug\net6.0\Lang52aConsole.AssemblyInfo.cs
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\obj\Debug\net6.0\Lang52aConsole.csproj.CoreCompileInputs.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\obj\Debug\net6.0\Lang52aConsole.dll
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\obj\Debug\net6.0\ref\Lang52aConsole.dll
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\obj\Debug\net6.0\Lang52aConsole.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang52aConsole\obj\Debug\net6.0\Lang52aConsole.genruntimeconfig.cache

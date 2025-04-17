@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5a106baf-ff93-4943-bb01-a49b37214fc1": {
+      "ProjectGuid": "5a106baf-ff93-4943-bb01-a49b37214fc1",
+      "DisplayName": "Program54a",
+      "ColorIndex": 0
+    },
+    "4c4c0119-d651-4c26-9dbc-f4fc5a128edc": {
+      "ProjectGuid": "4c4c0119-d651-4c26-9dbc-f4fc5a128edc",
+      "DisplayName": "HelloWorld",
+      "ColorIndex": 1
+    },
+    "4d16c807-b95a-451a-8efe-7b25a9420fb5": {
+      "ProjectGuid": "4d16c807-b95a-451a-8efe-7b25a9420fb5",
+      "DisplayName": "HelloName",
+      "ColorIndex": 2
+    },
+    "5de2f789-d868-4480-be55-8ef644555137": {
+      "ProjectGuid": "5de2f789-d868-4480-be55-8ef644555137",
+      "DisplayName": "Lang52aConsole",
+      "ColorIndex": 3
+    },
+    "b7a537db-710b-44f3-a4b1-e154e9e71688": {
+      "ProjectGuid": "b7a537db-710b-44f3-a4b1-e154e9e71688",
+      "DisplayName": "Lang54bConsole",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}

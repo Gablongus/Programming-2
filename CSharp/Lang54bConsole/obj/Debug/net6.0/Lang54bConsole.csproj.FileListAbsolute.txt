@@ -1,0 +1,15 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\bin\Debug\net6.0\Lang54bConsole.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\bin\Debug\net6.0\Lang54bConsole.deps.json
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\bin\Debug\net6.0\Lang54bConsole.runtimeconfig.json
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\bin\Debug\net6.0\Lang54bConsole.dll
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\bin\Debug\net6.0\ref\Lang54bConsole.dll
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\bin\Debug\net6.0\Lang54bConsole.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\obj\Debug\net6.0\Lang54bConsole.csproj.AssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\obj\Debug\net6.0\Lang54bConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\obj\Debug\net6.0\Lang54bConsole.AssemblyInfoInputs.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\obj\Debug\net6.0\Lang54bConsole.AssemblyInfo.cs
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\obj\Debug\net6.0\Lang54bConsole.csproj.CoreCompileInputs.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\obj\Debug\net6.0\Lang54bConsole.dll
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\obj\Debug\net6.0\ref\Lang54bConsole.dll
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\obj\Debug\net6.0\Lang54bConsole.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54bConsole\obj\Debug\net6.0\Lang54bConsole.genruntimeconfig.cache

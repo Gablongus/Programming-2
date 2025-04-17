@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Lang52aConsole/1.0.0": {
+        "runtime": {
+          "Lang52aConsole.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Lang52aConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
