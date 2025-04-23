@@ -1,0 +1,5 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54d Console\obj\Debug\Lang54d Console.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54d Console\bin\Debug\Lang54d Console.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54d Console\bin\Debug\Lang54d Console.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54d Console\obj\Debug\Lang54d Console.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Lang54d Console\obj\Debug\Lang54d Console.pdb

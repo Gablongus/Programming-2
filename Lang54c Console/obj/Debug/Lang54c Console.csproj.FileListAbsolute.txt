@@ -1,0 +1,5 @@
+C:\Users\schraedl.g\Desktop\Programming 2\Lang54c Console\obj\Debug\Lang54c Console.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\Lang54c Console\bin\Debug\Lang54c Console.exe
+C:\Users\schraedl.g\Desktop\Programming 2\Lang54c Console\bin\Debug\Lang54c Console.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\Lang54c Console\obj\Debug\Lang54c Console.exe
+C:\Users\schraedl.g\Desktop\Programming 2\Lang54c Console\obj\Debug\Lang54c Console.pdb
