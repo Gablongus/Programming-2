@@ -21,9 +21,14 @@ namespace Lang54d_Console
             
             double hyp = Math.Round(Math.Sqrt((b * b) + (h * h)), 2);
             Console.WriteLine("Hypotenuse = "+ hyp);
-            Console.ReadLine();
                 
-          
+            double area = Math.Round((b * h)/2, 2);
+            Console.WriteLine("Area = "+ area);
+            
+            double perim = Math.Round(b + h + hyp, 2);
+            Console.WriteLine("Perimeter = "+ perim);
+            
+            Console.ReadLine();
         }
     }
 }

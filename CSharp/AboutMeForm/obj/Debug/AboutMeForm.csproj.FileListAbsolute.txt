@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\AboutMeForm\obj\Debug\AboutMeForm.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\AboutMeForm\obj\Debug\AboutMeForm.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\AboutMeForm\obj\Debug\AboutMeForm.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\AboutMeForm\bin\Debug\AboutMeForm.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\AboutMeForm\bin\Debug\AboutMeForm.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\AboutMeForm\obj\Debug\AboutMeForm.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\AboutMeForm\obj\Debug\AboutMeForm.pdb

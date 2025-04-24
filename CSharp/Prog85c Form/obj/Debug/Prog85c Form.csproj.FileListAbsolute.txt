@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog85c Form\bin\Debug\Prog85c Form.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog85c Form\bin\Debug\Prog85c Form.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog85c Form\obj\Debug\Prog85c Form.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog85c Form\obj\Debug\Prog85c_Form.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog85c Form\obj\Debug\Prog85c Form.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog85c Form\obj\Debug\Prog85c Form.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog85c Form\obj\Debug\Prog85c Form.pdb
