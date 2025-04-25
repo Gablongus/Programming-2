@@ -1,0 +1,5 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\LP4-2 Console\bin\Debug\LP4-2 Console.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\LP4-2 Console\bin\Debug\LP4-2 Console.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\LP4-2 Console\obj\Debug\LP4-2 Console.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\LP4-2 Console\obj\Debug\LP4-2 Console.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\LP4-2 Console\obj\Debug\LP4-2 Console.pdb

@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg266 LargeSmall\bin\Debug\Pg266 LargeSmall.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg266 LargeSmall\bin\Debug\Pg266 LargeSmall.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg266 LargeSmall\obj\Debug\Pg266 LargeSmall.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg266 LargeSmall\obj\Debug\Pg266_LargeSmall.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg266 LargeSmall\obj\Debug\Pg266 LargeSmall.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg266 LargeSmall\obj\Debug\Pg266 LargeSmall.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg266 LargeSmall\obj\Debug\Pg266 LargeSmall.pdb

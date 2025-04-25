@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: schraedl.g
- * Date: 4/24/2025
- * Time: 3:11 PM
+ * Date: 4/25/2025
+ * Time: 3:02 PM
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Prog85c_Form
+namespace Pg266_LargeSmall
 {
     /// <summary>
     /// Description of MainForm.
@@ -32,24 +32,28 @@ namespace Prog85c_Form
         
         void Button1Click(object sender, EventArgs e)
         {
-            double num = double.Parse(textBox1.Text);
-            double step1 = num - 165;
-            double step2 = step1/100;
-            double month = Math.Round(step2);
-            double day = (step2 - month) * 100;
-            
-            label4.Text = month.ToString() + "/" + day.ToString();
+            double num1 = double.Parse(textBox1.Text);
+            double num2 = double.Parse(textBox2.Text);
+            if (num1 > num2) {
+                label3.Text = ("The greater number is: " + num1);
+            } else if (num2 > num1) {
+                label3.Text = ("The greater number is: " + num2);
+            } else {
+                label3.Text = ("ERROR");
+            }
         }
         
         void Button2Click(object sender, EventArgs e)
         {
+            label3.Text = "";
+            textBox2.Text = "";
             textBox1.Text = "";
-            label4.Text = "";
+                
         }
         
         void Button3Click(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit()
         }
     }
 }
