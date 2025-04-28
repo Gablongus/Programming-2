@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122a Form\bin\Debug\Prog122a Form.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122a Form\bin\Debug\Prog122a Form.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122a Form\obj\Debug\Prog122a Form.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122a Form\obj\Debug\Prog122a_Form.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122a Form\obj\Debug\Prog122a Form.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122a Form\obj\Debug\Prog122a Form.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122a Form\obj\Debug\Prog122a Form.pdb

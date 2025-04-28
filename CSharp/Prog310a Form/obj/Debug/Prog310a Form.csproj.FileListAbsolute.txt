@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog310a Form\obj\Debug\Prog310a Form.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog310a Form\obj\Debug\Prog310a_Form.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog310a Form\obj\Debug\Prog310a Form.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog310a Form\bin\Debug\Prog310a Form.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog310a Form\bin\Debug\Prog310a Form.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog310a Form\obj\Debug\Prog310a Form.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog310a Form\obj\Debug\Prog310a Form.pdb
