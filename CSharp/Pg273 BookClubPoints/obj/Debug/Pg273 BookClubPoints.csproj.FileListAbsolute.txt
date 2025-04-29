@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 BookClubPoints\obj\Debug\Pg273 BookClubPoints.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 BookClubPoints\obj\Debug\Pg273_BookClubPoints.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 BookClubPoints\obj\Debug\Pg273 BookClubPoints.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 BookClubPoints\bin\Debug\Pg273 BookClubPoints.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 BookClubPoints\bin\Debug\Pg273 BookClubPoints.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 BookClubPoints\obj\Debug\Pg273 BookClubPoints.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 BookClubPoints\obj\Debug\Pg273 BookClubPoints.pdb

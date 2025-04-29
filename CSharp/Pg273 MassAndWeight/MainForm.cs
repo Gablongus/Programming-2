@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: schraedl.g
- * Date: 4/25/2025
- * Time: 3:02 PM
+ * Date: 4/29/2025
+ * Time: 3:10 PM
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Pg266_LargeSmall
+namespace Pg273_MassAndWeight
 {
     /// <summary>
     /// Description of MainForm.
@@ -32,28 +32,21 @@ namespace Pg266_LargeSmall
         
         void Button1Click(object sender, EventArgs e)
         {
-            double num1 = double.Parse(textBox1.Text);
-            double num2 = double.Parse(textBox2.Text);
-            if (num1 > num2) {
-                label3.Text = ("The greater number is: " + num1);
-            } else if (num2 > num1) {
-                label3.Text = ("The greater number is: " + num2);
-            } else {
-                label3.Text = ("ERROR");
-            }
+            double mass = double.Parse(textBox1.Text);
+            double weight = mass * 9.8;
+            if (weight > 1000) {
+                label3.Text = "Too Heavy";
+            } else if (weight < 10) {
+                label3.Text = "Too light";
+            } else label3.Text = weight.ToString();
+            
+                
         }
         
         void Button2Click(object sender, EventArgs e)
         {
             label3.Text = "";
-            textBox2.Text = "";
             textBox1.Text = "";
-                
-        }
-        
-        void Button3Click(object sender, EventArgs e)
-        {
-            Application.Exit();
         }
     }
 }

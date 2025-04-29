@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg347 Sum", "Pg347 Sum.csproj", "{7896A71D-37DB-4641-9676-13D29457AD2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7896A71D-37DB-4641-9676-13D29457AD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7896A71D-37DB-4641-9676-13D29457AD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7896A71D-37DB-4641-9676-13D29457AD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7896A71D-37DB-4641-9676-13D29457AD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

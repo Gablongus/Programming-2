@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
  * User: schraedl.g
- * Date: 4/25/2025
- * Time: 3:02 PM
+ * Date: 4/29/2025
+ * Time: 3:01 PM
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -11,7 +11,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Pg266_LargeSmall
+namespace Prog122b_Form
 {
     /// <summary>
     /// Description of MainForm.
@@ -32,28 +32,20 @@ namespace Pg266_LargeSmall
         
         void Button1Click(object sender, EventArgs e)
         {
-            double num1 = double.Parse(textBox1.Text);
-            double num2 = double.Parse(textBox2.Text);
-            if (num1 > num2) {
-                label3.Text = ("The greater number is: " + num1);
-            } else if (num2 > num1) {
-                label3.Text = ("The greater number is: " + num2);
-            } else {
-                label3.Text = ("ERROR");
+            listBox1.Items.Clear();
+            listBox1.Items.Add("Hours\t\tPay");
+            int hour = 1;
+            while (hour <= 40) {
+                int pay = (int)4*(hour);
+                listBox1.Items.Add(hour + "\t\t" + pay);
+                //listBox1.Items.Add($"{lcv}\t\t{sqr}\t\t{Math.Round(sqrt,4)}");
+                hour++;
             }
         }
         
         void Button2Click(object sender, EventArgs e)
         {
-            label3.Text = "";
-            textBox2.Text = "";
-            textBox1.Text = "";
-                
-        }
-        
-        void Button3Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            listBox1.Items.Clear();
         }
     }
 }

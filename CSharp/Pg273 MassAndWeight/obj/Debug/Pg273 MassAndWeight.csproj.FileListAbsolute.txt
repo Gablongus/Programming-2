@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 MassAndWeight\obj\Debug\Pg273 MassAndWeight.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 MassAndWeight\obj\Debug\Pg273_MassAndWeight.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 MassAndWeight\obj\Debug\Pg273 MassAndWeight.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 MassAndWeight\bin\Debug\Pg273 MassAndWeight.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 MassAndWeight\bin\Debug\Pg273 MassAndWeight.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 MassAndWeight\obj\Debug\Pg273 MassAndWeight.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg273 MassAndWeight\obj\Debug\Pg273 MassAndWeight.pdb
