@@ -1,3 +1,7 @@
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg347 Sum\obj\Debug\Pg347 Sum.csprojResolveAssemblyReference.cache
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg347 Sum\obj\Debug\Pg347_Sum.MainForm.resources
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg347 Sum\obj\Debug\Pg347 Sum.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg347 Sum\bin\Debug\Pg347 Sum.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg347 Sum\bin\Debug\Pg347 Sum.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg347 Sum\obj\Debug\Pg347 Sum.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg347 Sum\obj\Debug\Pg347 Sum.pdb

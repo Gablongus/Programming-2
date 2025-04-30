@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
 namespace Pg347_Sum
 {
@@ -37,8 +38,23 @@ namespace Pg347_Sum
         
         void Button1Click(object sender, EventArgs e)
         {
-            using Microsoft.VisualBasic;
-            double num = Interaction.InputBox("Enter a positive integer value:", "Input Needed");
+            int ognum = int.Parse(Interaction.InputBox("Enter a positive integer value:", "Input Needed"));
+            int num = ognum;
+            if (num < 0) {
+                MessageBox.Show("Invalid Integer");
+            }
+           
+            int tot = 0;
+            while (num >= 0) {
+                tot = tot + num;
+                num = num - 1;
+            }
+            MessageBox.Show("The sum of numbers 1 through " + ognum.ToString() + " is: " + tot.ToString());
+        }
+        
+        void Button2Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
