@@ -2,11 +2,11 @@
  * Created by SharpDevelop.
  * User: schraedl.g
  * Date: 5/2/2025
- * Time: 3:04 PM
+ * Time: 3:19 PM
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
-namespace Pg535_CatchMe
+namespace Pg435_TicketSales
 {
     partial class MainForm
     {
@@ -40,7 +40,7 @@ namespace Pg535_CatchMe
             // MainForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Pg535 CatchMe";
+            this.Text = "Pg435 TicketSales";
             this.Name = "MainForm";
         }
     }

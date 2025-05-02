@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.4
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg535 CatchMe", "Pg535 CatchMe.csproj", "{ED004B09-327B-46A4-8C82-271AF01C5E64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg535 CatchMe", "Pg535 CatchMe.csproj", "{0D989B8D-A170-4F8E-B201-17C069FDB8AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,9 +10,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ED004B09-327B-46A4-8C82-271AF01C5E64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ED004B09-327B-46A4-8C82-271AF01C5E64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ED004B09-327B-46A4-8C82-271AF01C5E64}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ED004B09-327B-46A4-8C82-271AF01C5E64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D989B8D-A170-4F8E-B201-17C069FDB8AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D989B8D-A170-4F8E-B201-17C069FDB8AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D989B8D-A170-4F8E-B201-17C069FDB8AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D989B8D-A170-4F8E-B201-17C069FDB8AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 EndGlobal

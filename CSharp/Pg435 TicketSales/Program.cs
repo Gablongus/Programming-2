@@ -2,14 +2,14 @@
  * Created by SharpDevelop.
  * User: schraedl.g
  * Date: 5/2/2025
- * Time: 3:04 PM
+ * Time: 3:19 PM
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
 using System;
 using System.Windows.Forms;
 
-namespace Pg535_CatchMe
+namespace Pg435_TicketSales
 {
     /// <summary>
     /// Class with program entry point.

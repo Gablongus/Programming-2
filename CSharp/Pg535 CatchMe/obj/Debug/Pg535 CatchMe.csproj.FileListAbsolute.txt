@@ -1,3 +1,4 @@
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg535 CatchMe\obj\Debug\Pg535 CatchMe.csprojResolveAssemblyReference.cache
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg535 CatchMe\obj\Debug\Pg535_CatchMe.MainForm.resources
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg535 CatchMe\obj\Debug\Pg535 CatchMe.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg535 CatchMe\obj\Debug\MainForm.resources
