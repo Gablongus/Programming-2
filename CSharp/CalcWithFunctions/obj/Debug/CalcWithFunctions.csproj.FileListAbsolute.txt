@@ -1,0 +1,5 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\CalcWithFunctions\bin\Debug\CalcWithFunctions.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\CalcWithFunctions\bin\Debug\CalcWithFunctions.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\CalcWithFunctions\obj\Debug\CalcWithFunctions.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\CalcWithFunctions\obj\Debug\CalcWithFunctions.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\CalcWithFunctions\obj\Debug\CalcWithFunctions.pdb
