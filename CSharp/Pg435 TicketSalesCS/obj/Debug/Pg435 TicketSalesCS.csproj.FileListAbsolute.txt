@@ -1,0 +1,9 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg435 TicketSalesCS\bin\Debug\Pg435 TicketSalesCS.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg435 TicketSalesCS\bin\Debug\Pg435 TicketSalesCS.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg435 TicketSalesCS\obj\Debug\Pg435 TicketSalesCS.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg435 TicketSalesCS\obj\Debug\Pg435_TicketSalesCS.GeneralForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg435 TicketSalesCS\obj\Debug\Pg435_TicketSalesCS.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg435 TicketSalesCS\obj\Debug\Pg435_TicketSalesCS.StudentForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg435 TicketSalesCS\obj\Debug\Pg435 TicketSalesCS.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg435 TicketSalesCS\obj\Debug\Pg435 TicketSalesCS.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg435 TicketSalesCS\obj\Debug\Pg435 TicketSalesCS.pdb
