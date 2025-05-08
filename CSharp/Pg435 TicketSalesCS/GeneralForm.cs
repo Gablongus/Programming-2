@@ -34,5 +34,10 @@ namespace Pg435_TicketSalesCS
         }
         
         // TODO: decimal taxrate/calctax
+        
+        void Button2Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

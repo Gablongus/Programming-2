@@ -57,6 +57,7 @@ namespace Pg435_TicketSalesCS
             this.Controls.Add(this.button1);
             this.Name = "StudentForm";
             this.Text = "StudentForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.StudentFormFormClosing);
             this.ResumeLayout(false);
         }
         private System.Windows.Forms.Button button1;

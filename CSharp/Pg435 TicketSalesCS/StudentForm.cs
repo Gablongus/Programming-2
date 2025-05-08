@@ -30,5 +30,10 @@ namespace Pg435_TicketSalesCS
             this.myParent.Show();
             this.Close();
         }
+        
+        void StudentFormFormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.myParent.Show();
+        }
     }
 }
