@@ -44,5 +44,10 @@ namespace Pg435_TicketSalesCS
             frm.Show();
             this.Hide();
         }
+        
+        void Button3Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

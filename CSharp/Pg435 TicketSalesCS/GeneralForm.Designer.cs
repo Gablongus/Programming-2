@@ -43,15 +43,15 @@ namespace Pg435_TicketSalesCS
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -93,6 +93,7 @@ namespace Pg435_TicketSalesCS
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Section C";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.RadioButton3CheckedChanged);
             // 
             // radioButton1
             // 
@@ -104,6 +105,7 @@ namespace Pg435_TicketSalesCS
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Section A";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.RadioButton1CheckedChanged);
             // 
             // radioButton2
             // 
@@ -115,6 +117,7 @@ namespace Pg435_TicketSalesCS
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Section B";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.RadioButton2CheckedChanged);
             // 
             // button2
             // 
@@ -145,42 +148,15 @@ namespace Pg435_TicketSalesCS
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Total Cost";
             // 
-            // label1
+            // label6
             // 
-            this.label1.Location = new System.Drawing.Point(11, 39);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(70, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Tickets:";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(11, 81);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 23);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Tax:";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label3
-            // 
-            this.label3.Location = new System.Drawing.Point(11, 125);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 23);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Total:";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label4
-            // 
-            this.label4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Location = new System.Drawing.Point(87, 40);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 23);
-            this.label4.TabIndex = 3;
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label6.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label6.Location = new System.Drawing.Point(87, 120);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(114, 23);
+            this.label6.TabIndex = 5;
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // label5
             // 
@@ -192,15 +168,42 @@ namespace Pg435_TicketSalesCS
             this.label5.TabIndex = 4;
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // label6
+            // label4
             // 
-            this.label6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label6.Location = new System.Drawing.Point(87, 120);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(114, 23);
-            this.label6.TabIndex = 5;
-            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.label4.Location = new System.Drawing.Point(87, 40);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(114, 23);
+            this.label4.TabIndex = 3;
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(11, 125);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(70, 23);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Total:";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(11, 81);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(70, 23);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Tax:";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(11, 39);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Tickets:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // groupBox2
             // 
@@ -215,6 +218,13 @@ namespace Pg435_TicketSalesCS
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Total Cost";
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(228, 42);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(168, 29);
+            this.textBox1.TabIndex = 3;
+            // 
             // label10
             // 
             this.label10.Location = new System.Drawing.Point(17, 42);
@@ -223,13 +233,6 @@ namespace Pg435_TicketSalesCS
             this.label10.TabIndex = 2;
             this.label10.Text = "Enter number of tickets:";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(228, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(168, 29);
-            this.textBox1.TabIndex = 3;
             // 
             // GeneralForm
             // 
