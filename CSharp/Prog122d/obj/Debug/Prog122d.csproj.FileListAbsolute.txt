@@ -1,0 +1,5 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122d\bin\Debug\Prog122d.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122d\bin\Debug\Prog122d.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122d\obj\Debug\Prog122d.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122d\obj\Debug\Prog122d.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Prog122d\obj\Debug\Prog122d.pdb

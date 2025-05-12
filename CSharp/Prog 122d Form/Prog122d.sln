@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 # SharpDevelop 4.4
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog 122d Form", "Prog 122d Form.csproj", "{1649934E-6D1E-406D-8403-68A199AC6E70}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog122d", "Prog122d.csproj", "{1649934E-6D1E-406D-8403-68A199AC6E70}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

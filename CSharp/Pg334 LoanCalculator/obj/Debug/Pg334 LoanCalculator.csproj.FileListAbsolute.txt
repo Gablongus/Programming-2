@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg334 LoanCalculator\obj\Debug\Pg334 LoanCalculator.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg334 LoanCalculator\obj\Debug\Pg334_LoanCalculator.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg334 LoanCalculator\obj\Debug\Pg334 LoanCalculator.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg334 LoanCalculator\bin\Debug\Pg334 LoanCalculator.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg334 LoanCalculator\bin\Debug\Pg334 LoanCalculator.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg334 LoanCalculator\obj\Debug\Pg334 LoanCalculator.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg334 LoanCalculator\obj\Debug\Pg334 LoanCalculator.pdb
