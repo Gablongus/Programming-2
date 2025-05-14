@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
   <PropertyGroup>
-    <ProjectGuid>{4B7E130C-FCD6-4EB1-8208-F5F94B82738F}</ProjectGuid>
+    <ProjectGuid>{6F080DB9-0DA2-49D8-A71C-224259548175}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Pg334_LoanCalculator</RootNamespace>
-    <AssemblyName>Pg334 LoanCalculator</AssemblyName>
+    <RootNamespace>Pg334_LoanCalculator_Form</RootNamespace>
+    <AssemblyName>Pg334 LoanCalculator Form</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <AppDesignerFolder>Properties</AppDesignerFolder>
