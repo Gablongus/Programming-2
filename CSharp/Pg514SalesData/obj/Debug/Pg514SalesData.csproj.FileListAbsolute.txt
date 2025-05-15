@@ -1,0 +1,7 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.MainForm.resources
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\bin\Debug\Pg514SalesData.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\bin\Debug\Pg514SalesData.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.pdb

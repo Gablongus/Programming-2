@@ -69,6 +69,7 @@ namespace Pg334_LoanCalculator_Form
             this.button3.TabIndex = 12;
             this.button3.Text = "Exit";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.Button3Click);
             // 
             // button2
             // 
@@ -163,6 +164,7 @@ namespace Pg334_LoanCalculator_Form
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Used";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.RadioButton2CheckedChanged);
             // 
             // radioButton1
             // 
@@ -174,6 +176,7 @@ namespace Pg334_LoanCalculator_Form
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "New";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.RadioButton1CheckedChanged);
             // 
             // groupBox1
             // 

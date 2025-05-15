@@ -104,5 +104,30 @@ namespace Pg334_LoanCalculator_Form
             
             textBox1.Focus();
         }
+        
+        void Button3Click(object sender, EventArgs e)
+        {
+            textBox1.CausesValidation = false;
+            textBox2.CausesValidation = false;
+            textBox3.CausesValidation = false;
+            
+            Application.Exit();
+        }
+        
+        void RadioButton1CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton1.Checked == true) {
+                dblAnnualRate = dblNEW_RATE;
+                label5.Text = dblNEW_RATE.ToString(".00%");
+            }
+        }
+        
+        void RadioButton2CheckedChanged(object sender, EventArgs e)
+        {
+            if (radioButton2.Checked == true) {
+                dblAnnualRate = dblUSED_RATE;
+                label5.Text = dblUSED_RATE.ToString(".00%");
+            }
+        }
     }
 }
