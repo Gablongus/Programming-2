@@ -30,7 +30,7 @@ namespace Pg498_Payroll
             // TODO: Add constructor code after the InitializeComponent() call.
             //
         }
-        const int intMAX_EMPLOYEES = 50;
+        const int intMAX_EMPLOYEES = 6;
         const decimal decHOURLY_PAY_RATE = 6.0m;
         void Button1Click(object sender, EventArgs e) {
             // Calc & Display Gross Pay Earned by Employees
@@ -53,9 +53,17 @@ namespace Pg498_Payroll
             }
             
             //TODO: the rest
+            listBox1.Items.Clear();
             for (Count = 0; Count < intMAX_EMPLOYEES; Count ++) {
-                
+                EmpPay = intHours[Count] * decHOURLY_PAY_RATE;
+                listBox1.Items.Add("Employee " + (Count+1).ToString() +
+                                   " earned " + EmpPay.ToString("$.00"));
             }
+        }
+        
+        void Button2Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

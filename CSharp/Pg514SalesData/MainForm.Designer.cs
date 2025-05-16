@@ -37,14 +37,14 @@ namespace Pg514SalesData
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
@@ -53,13 +53,13 @@ namespace Pg514SalesData
             // groupBox1
             // 
             this.groupBox1.BackColor = System.Drawing.Color.AliceBlue;
-            this.groupBox1.Controls.Add(this.textBox4);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.textBox3);
             this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox2);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.textBox1);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(23, 12);
@@ -69,44 +69,50 @@ namespace Pg514SalesData
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Sales Data";
             // 
-            // label1
+            // label8
             // 
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(75, 43);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Total Sales:";
+            this.label8.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label8.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(189, 144);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(96, 29);
+            this.label8.TabIndex = 10;
             // 
-            // textBox1
+            // label7
             // 
-            this.textBox1.Location = new System.Drawing.Point(174, 39);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(109, 29);
-            this.textBox1.TabIndex = 1;
+            this.label7.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label7.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(189, 109);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(96, 29);
+            this.label7.TabIndex = 9;
             // 
-            // textBox2
+            // label6
             // 
-            this.textBox2.Location = new System.Drawing.Point(174, 74);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(109, 29);
-            this.textBox2.TabIndex = 3;
+            this.label6.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(189, 74);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(96, 29);
+            this.label6.TabIndex = 8;
             // 
-            // label2
+            // label5
             // 
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(52, 78);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(119, 23);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Average Sales:";
+            this.label5.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Font = new System.Drawing.Font("Microsoft YaHei", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(189, 39);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(96, 29);
+            this.label5.TabIndex = 7;
             // 
-            // textBox3
+            // label4
             // 
-            this.textBox3.Location = new System.Drawing.Point(174, 109);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(109, 29);
-            this.textBox3.TabIndex = 5;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(54, 148);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(117, 23);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Lowest Sales:";
             // 
             // label3
             // 
@@ -117,21 +123,23 @@ namespace Pg514SalesData
             this.label3.TabIndex = 4;
             this.label3.Text = "Highest Sales:";
             // 
-            // textBox4
+            // label2
             // 
-            this.textBox4.Location = new System.Drawing.Point(174, 144);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(109, 29);
-            this.textBox4.TabIndex = 7;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(52, 78);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(119, 23);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Average Sales:";
             // 
-            // label4
+            // label1
             // 
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(54, 148);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(117, 23);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Lowest Sales:";
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(75, 43);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Total Sales:";
             // 
             // button1
             // 
@@ -143,6 +151,7 @@ namespace Pg514SalesData
             this.button1.TabIndex = 1;
             this.button1.Text = "Caclulate Data";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.Button1Click);
             // 
             // button2
             // 
@@ -154,6 +163,7 @@ namespace Pg514SalesData
             this.button2.TabIndex = 2;
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2Click);
             // 
             // MainForm
             // 
@@ -167,18 +177,17 @@ namespace Pg514SalesData
             this.Name = "MainForm";
             this.Text = "Pg514SalesData";
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
         }
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBox1;
     }
