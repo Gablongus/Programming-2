@@ -1,0 +1,5 @@
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\StrInterview8\obj\Debug\StrInterview8.csprojResolveAssemblyReference.cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\StrInterview8\bin\Debug\StrInterview8.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\StrInterview8\bin\Debug\StrInterview8.pdb
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\StrInterview8\obj\Debug\StrInterview8.exe
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\StrInterview8\obj\Debug\StrInterview8.pdb
