@@ -17,11 +17,25 @@ namespace Final_Project_Inventory
     /// </summary>
     public partial class ManagerForm : Form {
         private Form myParent;
+        public string CompanyName {get; set;}
         
         public ManagerForm(Form myParent) {
             InitializeComponent();
             this.myParent = myParent;
             
+        }
+        
+        void ManagerFormLoad(object sender, EventArgs e)
+        {
+            label1.Text = CompanyName;
+        }
+        
+        void Button4Click(object sender, EventArgs e)
+        {
+            AddProductForm addPr = new AddProductForm(this);
+            addPr.Show();
+            this.Hide();
+                
         }
     }
 }

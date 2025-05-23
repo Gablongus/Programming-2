@@ -16,8 +16,7 @@ namespace Final_Project_Inventory
     /// <summary>
     /// Description of MainForm.
     /// </summary>
-    public partial class MainForm : Form
-    {
+    public partial class MainForm : Form {
         public MainForm()
         {
             //
@@ -32,8 +31,10 @@ namespace Final_Project_Inventory
         
         void Button1Click(object sender, EventArgs e)
         {
-            Form frm = new ManagerForm(this);
-            frm.Show();
+            string Name = textBox1.Text;
+            ManagerForm frm2 = new ManagerForm(this);
+            frm2.CompanyName = Name;
+            frm2.Show();
             this.Hide();
         }
     }

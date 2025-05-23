@@ -5,3 +5,4 @@ C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Final Project Inventory\obj\Deb
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Final Project Inventory\obj\Debug\Final Project Inventory.pdb
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.ManagerForm.resources
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Final Project Inventory\obj\Debug\Final Project Inventory.csproj.GenerateResource.Cache
+C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.AddProductForm.resources
