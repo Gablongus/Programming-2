@@ -5,3 +5,10 @@ C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\bin\Debug\Pg514S
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\bin\Debug\Pg514SalesData.pdb
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.exe
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.pdb
+C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Pg514SalesData\bin\Debug\Pg514SalesData.exe
+C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Pg514SalesData\bin\Debug\Pg514SalesData.pdb
+C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.csprojResolveAssemblyReference.cache
+C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.MainForm.resources
+C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.csproj.GenerateResource.Cache
+C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.exe
+C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Pg514SalesData\obj\Debug\Pg514SalesData.pdb

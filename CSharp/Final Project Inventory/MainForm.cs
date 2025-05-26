@@ -32,9 +32,10 @@ namespace Final_Project_Inventory
         void Button1Click(object sender, EventArgs e)
         {
             string Name = textBox1.Text;
-            ManagerForm frm2 = new ManagerForm(this);
-            frm2.CompanyName = Name;
-            frm2.Show();
+            ManagerForm mngForm = new ManagerForm(this);
+            mngForm.CompanyName = Name;
+            mngForm.AddingProduct = false;
+            mngForm.Show();
             this.Hide();
         }
     }
