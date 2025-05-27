@@ -38,5 +38,10 @@ namespace Final_Project_Inventory
             mngForm.Show();
             this.Hide();
         }
+        
+        void MainFormLoad(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

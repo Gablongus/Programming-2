@@ -16,10 +16,10 @@ namespace Final_Project_Inventory
     /// Description of AddProductForm.
     /// </summary>
     public partial class AddProductForm : Form {
-        private Form myParent;
+        private ManagerForm myParent;
     
             
-        public AddProductForm(Form myParent) {
+        public AddProductForm(ManagerForm myParent) {
             this.myParent = myParent;
             InitializeComponent();
         }
@@ -33,12 +33,13 @@ namespace Final_Project_Inventory
 	        	double Price = double.Parse(textBox6.Text);
 	        	string Date = (textBox3.Text + "/" + textBox4.Text + "/" + textBox5.Text);
 	        	
-	        	ManagerForm mngForm = new ManagerForm(this);
-	        	mngForm.ProductName = ProdName;
-        		mngForm.StartingAmount = StartAmount;
-        		mngForm.CurrentPrice = Price;
-        		mngForm.DateInput = Date;
-        		mngForm.AddingProduct = true;
+	        	
+	        	this.myParent.ProductName = ProdName;
+        		this.myParent.StartingAmount = StartAmount;
+        		this.myParent.CurrentPrice = Price;
+        		this.myParent.DateInput = Date;
+        		this.myParent.AddingProduct = true;
+        		myParent.ManagerFormLoad(null, null);
 	        	myParent.Show();
 	        	this.Hide();
         	}

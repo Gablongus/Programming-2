@@ -44,6 +44,8 @@ namespace Final_Project_Inventory
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -52,7 +54,7 @@ namespace Final_Project_Inventory
             this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(32, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(474, 36);
+            this.label1.Size = new System.Drawing.Size(563, 36);
             this.label1.TabIndex = 0;
             this.label1.Text = "label1";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -73,14 +75,14 @@ namespace Final_Project_Inventory
             this.listBox1.FormattingEnabled = true;
             this.listBox1.Location = new System.Drawing.Point(32, 124);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(300, 303);
+            this.listBox1.Size = new System.Drawing.Size(391, 303);
             this.listBox1.TabIndex = 2;
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.Cornsilk;
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(191, 61);
+            this.button2.Location = new System.Drawing.Point(179, 62);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(141, 43);
             this.button2.TabIndex = 3;
@@ -91,7 +93,7 @@ namespace Final_Project_Inventory
             // 
             this.button3.BackColor = System.Drawing.Color.Moccasin;
             this.button3.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(368, 61);
+            this.button3.Location = new System.Drawing.Point(457, 62);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(138, 68);
             this.button3.TabIndex = 4;
@@ -102,7 +104,7 @@ namespace Final_Project_Inventory
             // 
             this.button4.BackColor = System.Drawing.Color.PapayaWhip;
             this.button4.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(368, 152);
+            this.button4.Location = new System.Drawing.Point(457, 153);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(138, 53);
             this.button4.TabIndex = 5;
@@ -114,7 +116,7 @@ namespace Final_Project_Inventory
             // 
             this.button5.BackColor = System.Drawing.Color.PapayaWhip;
             this.button5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(368, 224);
+            this.button5.Location = new System.Drawing.Point(457, 225);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(138, 59);
             this.button5.TabIndex = 6;
@@ -125,19 +127,38 @@ namespace Final_Project_Inventory
             // 
             this.button6.BackColor = System.Drawing.Color.PapayaWhip;
             this.button6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(368, 305);
+            this.button6.Location = new System.Drawing.Point(457, 306);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(138, 59);
             this.button6.TabIndex = 7;
             this.button6.Text = "View Statistics";
             this.button6.UseVisualStyleBackColor = false;
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(327, 75);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(96, 29);
+            this.textBox1.TabIndex = 8;
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(327, 58);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(100, 14);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "Search Products";
+            // 
             // ManagerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Ivory;
-            this.ClientSize = new System.Drawing.Size(536, 465);
+            this.ClientSize = new System.Drawing.Size(623, 465);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -150,7 +171,10 @@ namespace Final_Project_Inventory
             this.Text = "ManagerForm";
             this.Load += new System.EventHandler(this.ManagerFormLoad);
             this.ResumeLayout(false);
+            this.PerformLayout();
         }
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;

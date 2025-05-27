@@ -50,6 +50,9 @@ namespace Final_Project_Inventory
 		public void SetPrice(double Price) {
 			dblPrice = Price;
 		}
+		public override string ToString(){
+		    return string.Format(strName + "\t\t" + intAmount + "\t" + dblPrice + "\t" + strDate);
+		}
 		
 		
     	
@@ -64,26 +67,33 @@ namespace Final_Project_Inventory
         public string DateInput {get; set;}
         public bool AddingProduct {get; set;}
     
-        
+        List<Product> products;
         public ManagerForm(Form myParent) {
             InitializeComponent();
             
             this.myParent = myParent;
             
-            List<Product> products = new List<Product>(); #Ask about how to reference this later. Also ask about how you can add stuff to list box.
-        	label1.Text = CompanyName;
+             
+            //Ask about how to reference this later. Also ask about how you can add stuff to list box.
+        	products = new List<Product>();
+        	
+        	listBox1.Items.Add("Modification Type  " +"\t" + "Product Name"+ "\t" +"Amount"+ "\t" +"Price"+ "\t" +"Date");
+        	listBox1.Items.Add("----------------------------------------------------------");
             
         }
         
         
         	
-        void ManagerFormLoad(object sender, EventArgs e)
+        public void ManagerFormLoad(object sender, EventArgs e)
         {
-        	if (AddingProduct == true){
+            label1.Text = CompanyName;
+            if (AddingProduct == true) {
         	products.Add(new Product(ProductName, StartingAmount, CurrentPrice, DateInput));
-        	}
+        	listBox1.Items.Add("NewProduct\t" + products[products.Count-1].ToString());
+            }
         	
         }
+        
         
         void Button4Click(object sender, EventArgs e)
         {
@@ -91,6 +101,18 @@ namespace Final_Project_Inventory
             addPr.Show();
             this.Hide();
                 
+        }
+        
+        void TextBox1TextChanged(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+            // Figure this out or just remove it
+            foreach (string str in products.ToString()) {
+                if (str.StartsWith(textBox1.Text, StringComparison.CurrentCultureIgnoreCase))
+                {
+                    listBox1.Items.Add(str);
+                }
+            }
         }
     }
 }
