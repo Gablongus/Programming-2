@@ -55,6 +55,7 @@ namespace Final_Project_Inventory
             this.button2.TabIndex = 11;
             this.button2.Text = "Exit";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.Button2Click);
             // 
             // label3
             // 

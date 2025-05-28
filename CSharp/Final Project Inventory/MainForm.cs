@@ -31,17 +31,29 @@ namespace Final_Project_Inventory
         
         void Button1Click(object sender, EventArgs e)
         {
-            string Name = textBox1.Text;
-            ManagerForm mngForm = new ManagerForm(this);
-            mngForm.CompanyName = Name;
-            mngForm.AddingProduct = false;
-            mngForm.Show();
-            this.Hide();
+            if (string.IsNullOrEmpty(textBox1.Text))
+            {
+                MessageBox.Show("Please Enter A Name");
+            }
+            else
+            {
+                string Name = textBox1.Text;
+                ManagerForm mngForm = new ManagerForm(this);
+                mngForm.CompanyName = Name;
+                mngForm.AddingProduct = false;
+                mngForm.Show();
+                this.Hide();
+            }
         }
         
         void MainFormLoad(object sender, EventArgs e)
         {
             
+        }
+        
+        void Button2Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

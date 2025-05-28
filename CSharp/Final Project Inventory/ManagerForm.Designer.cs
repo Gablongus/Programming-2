@@ -99,6 +99,7 @@ namespace Final_Project_Inventory
             this.button3.TabIndex = 4;
             this.button3.Text = "Add Sale";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.Button3Click);
             // 
             // button4
             // 
@@ -116,7 +117,7 @@ namespace Final_Project_Inventory
             // 
             this.button5.BackColor = System.Drawing.Color.PapayaWhip;
             this.button5.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(457, 225);
+            this.button5.Location = new System.Drawing.Point(457, 320);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(138, 59);
             this.button5.TabIndex = 6;
@@ -127,11 +128,11 @@ namespace Final_Project_Inventory
             // 
             this.button6.BackColor = System.Drawing.Color.PapayaWhip;
             this.button6.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.Location = new System.Drawing.Point(457, 306);
+            this.button6.Location = new System.Drawing.Point(457, 232);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(138, 59);
             this.button6.TabIndex = 7;
-            this.button6.Text = "View Statistics";
+            this.button6.Text = "Add Restock";
             this.button6.UseVisualStyleBackColor = false;
             // 
             // textBox1

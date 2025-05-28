@@ -51,6 +51,10 @@
     <Compile Include="AddProductForm.Designer.cs">
       <DependentUpon>AddProductForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddSaleForm.cs" />
+    <Compile Include="AddSaleForm.Designer.cs">
+      <DependentUpon>AddSaleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -59,12 +63,16 @@
     <Compile Include="ManagerForm.Designer.cs">
       <DependentUpon>ManagerForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddProductForm.resx">
       <DependentUpon>AddProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSaleForm.resx">
+      <DependentUpon>AddSaleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ManagerForm.resx">
       <DependentUpon>ManagerForm.cs</DependentUpon>

@@ -50,5 +50,12 @@ namespace Final_Project_Inventory
 	        	
         		
         }
+        
+        void Button2Click(object sender, EventArgs e)
+        {
+            myParent.ManagerFormLoad(null, null);
+        	myParent.Show();
+        	this.Hide();
+        }
     }
 }
