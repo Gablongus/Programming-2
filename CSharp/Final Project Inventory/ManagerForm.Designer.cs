@@ -134,6 +134,7 @@ namespace Final_Project_Inventory
             this.button6.TabIndex = 7;
             this.button6.Text = "Add Restock";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.Button6Click);
             // 
             // textBox1
             // 

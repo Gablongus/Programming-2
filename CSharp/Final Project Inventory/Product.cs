@@ -33,6 +33,7 @@ public class Product {
 		public double GetPrice() {
 			return dblPrice;
 		}
+		
 		public string GetDate() {
 			return strDate;
 		}
@@ -46,9 +47,7 @@ public class Product {
 		public override string ToString(){
 		    return string.Format(strName + "\t\t" + intAmount + "\t" + dblPrice + "\t" + strDate);
 		}
-		public string NameOnly(){
-		    return string.Format(strName);
-		}
+		
 		
 		
     	

@@ -52,8 +52,32 @@ namespace Final_Project_Inventory
         
         void Button1Click(object sender, EventArgs e)
         {
+            try{
+            int index = checkedListBox1.SelectedIndex;
             int NumSold = int.Parse(textBox2.Text);
             string Date = (textBox3.Text + "/" + textBox4.Text + "/" + textBox5.Text);
+            int indexNum = (Product.products[index].GetAmount());
+            double indexPrice = (Product.products[index].GetPrice());
+            label3.Text = indexNum.ToString();
+            if (NumSold > indexNum){
+                MessageBox.Show("This sale is more than you have in stock!");
+            }
+            else{
+                this.myParent.Index = index;
+                this.myParent.AmountSold = NumSold;
+                this.myParent.MoneyGained = ((NumSold * indexPrice) * myParent.TaxRate);
+                Product.products[index].SetAmount(indexNum - NumSold);
+                this.myParent.AddingProduct = false;
+                this.myParent.SellingProduct = true;
+                myParent.ManagerFormLoad(null,null);
+                myParent.Show();
+                this.Hide();
+            }
+            }
+            catch
+            {
+                MessageBox.Show("Please Enter Valid Inputs");
+            }
             
             
         }
