@@ -35,9 +35,11 @@ namespace Final_Project_Inventory
 	        	
 	        	
 	        	this.myParent.ProductName = ProdName;
-        		this.myParent.StartingAmount = StartAmount;
+        		this.myParent.Amount = StartAmount;
         		this.myParent.CurrentPrice = Price;
         		this.myParent.DateInput = Date;
+        		this.myParent.ModType = "NewProduct:";
+        		this.myParent.SellingProduct = false;
         		this.myParent.AddingProduct = true;
         		myParent.ManagerFormLoad(null, null);
 	        	myParent.Show();
@@ -53,6 +55,8 @@ namespace Final_Project_Inventory
         
         void Button2Click(object sender, EventArgs e)
         {
+            this.myParent.SellingProduct = false;
+            this.myParent.AddingProduct = false;
             myParent.ManagerFormLoad(null, null);
         	myParent.Show();
         	this.Hide();

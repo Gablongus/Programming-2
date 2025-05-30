@@ -28,7 +28,11 @@ namespace Final_Project_Inventory
         void AddSaleFormLoad(object sender, EventArgs e)
         {
             foreach (Product P in Product.products){
-                checkedListBox1.Items.Add(P.GetName());
+                string Typestuff = P.GetType();
+                if (string.Equals(Typestuff, "NewProduct:")){
+                    checkedListBox1.Items.Add(P.GetName());
+                }
+                
             }
             
         }
@@ -63,8 +67,12 @@ namespace Final_Project_Inventory
                 MessageBox.Show("This sale is more than you have in stock!");
             }
             else{
+                // Fix index
                 this.myParent.Index = index;
                 this.myParent.AmountSold = NumSold;
+                this.myParent.DateInput = Date;
+                this.myParent.Amount = indexNum - NumSold;
+                this.myParent.ModType = ("Sale(" + NumSold + ")     ");
                 this.myParent.MoneyGained = ((NumSold * indexPrice) * myParent.TaxRate);
                 Product.products[index].SetAmount(indexNum - NumSold);
                 this.myParent.AddingProduct = false;
@@ -80,6 +88,15 @@ namespace Final_Project_Inventory
             }
             
             
+        }
+        
+        void Button2Click(object sender, EventArgs e)
+        {
+            this.myParent.SellingProduct = false;
+            this.myParent.AddingProduct = false;
+            myParent.ManagerFormLoad(null, null);
+        	myParent.Show();
+        	this.Hide();
         }
     }
 }

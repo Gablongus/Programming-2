@@ -11,12 +11,14 @@ using System.Collections.Generic;
 public class Product {
     public static List<Product> products = new List<Product>();
     	private string strName;
+    	private string strModType;
 		private int intAmount;
 		private double dblPrice;
 		private string strDate;
 		
-		public Product(string Name, int Amount, double Price, string Date){
+		public Product(string ModType, string Name, int Amount, double Price, string Date){
     		strName = Name;
+    		strModType = ModType;
     		intAmount = Amount;
     		dblPrice = Price;
     		strDate = Date;
@@ -26,6 +28,9 @@ public class Product {
 		
 		public string GetName() {
 			return strName;
+		}
+		public string GetType() {
+			return strModType;
 		}
 		public int GetAmount() {
 			return intAmount;
@@ -44,8 +49,11 @@ public class Product {
 		public void SetPrice(double Price) {
 			dblPrice = Price;
 		}
+		public void SetType(string ModType) {
+			strModType = ModType;
+		}
 		public override string ToString(){
-		    return string.Format(strName + "\t\t" + intAmount + "\t" + dblPrice + "\t" + strDate);
+		    return string.Format(strModType + "\t" + strName + "\t\t" + intAmount + "\t" + dblPrice + "\t" + strDate);
 		}
 		
 		

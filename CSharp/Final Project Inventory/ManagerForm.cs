@@ -22,9 +22,10 @@ namespace Final_Project_Inventory
         public string CompanyName {get; set;}
         
         public string ProductName {get; set;}
-        public int StartingAmount {get; set;}
+        public int Amount {get; set;}
         public double CurrentPrice {get; set;}
         public string DateInput {get; set;}
+        public string ModType {get; set;}
         
         public int Index {get; set;}
         public int AmountSold {get; set;}
@@ -55,11 +56,13 @@ namespace Final_Project_Inventory
         {
             label1.Text = CompanyName;
             if (AddingProduct == true) {
-        	Product.products.Add(new Product(ProductName, StartingAmount, CurrentPrice, DateInput));
-        	listBox1.Items.Add("NewProduct\t" + Product.products[Product.products.Count-1].ToString());
+        	Product.products.Add(new Product(ModType, ProductName, Amount, CurrentPrice, DateInput));
+        	listBox1.Items.Add(Product.products[Product.products.Count-1].ToString());
             }
             if (SellingProduct == true) {
-                listBox1.Items.Add("ProductSale(" + AmountSold + ")\t" + Product.products[Index].ToString());
+                Product.products.Add(new Product(ModType, ProductName, Amount, CurrentPrice, DateInput));
+                listBox1.Items.Add(Product.products[Product.products.Count-1].ToString());
+                //listBox1.Items.Add(ModType + "(" + AmountSold + ")\t" + Product.products[Index].ToString());
             }
         	
         }
@@ -76,14 +79,16 @@ namespace Final_Project_Inventory
         void TextBox1TextChanged(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
+            listBox1.Items.Add("Modification Type  " +"\t" + "Product Name"+ "\t" +"Amount"+ "\t" +"Price"+ "\t" +"Date");
+            listBox1.Items.Add("----------------------------------------------------------");
+            
             // ASK ABOUT
-            foreach (string str in Product.products.GetName())
-        {
-            if (str.ToUpper().Contains(textBox1.Text.ToUpper()))
-            {
-                listBox1.Items.Add(str);
+            foreach (Product P in Product.products)
+                if (P.GetName().StartsWith(textBox1.Text, StringComparison.CurrentCultureIgnoreCase)){
+
+                listBox1.Items.Add(P);
             }
-        }
+                
         }
         
         void Button3Click(object sender, EventArgs e)
@@ -95,7 +100,9 @@ namespace Final_Project_Inventory
         
         void Button6Click(object sender, EventArgs e)
         {
-            
+            RestockForm Res = new RestockForm(this);
+            Res.Show();
+            this.Hide();
         }
     }
 }
