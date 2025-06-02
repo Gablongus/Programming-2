@@ -57,11 +57,26 @@ namespace Final_Project_Inventory
         void Button1Click(object sender, EventArgs e)
         {
             try{
+    		int indexNum= 0 ;
+            double indexPrice = 0.00;
             int index = checkedListBox1.SelectedIndex;
+            string indexName = checkedListBox1.SelectedItem.ToString();
+            int realindex;
+            
+            for(int i = Product.products.Count-1; i>=0; i--){
+            	if (Product.products[i].GetName() == indexName){
+            		indexNum = Product.products[i].GetAmount();
+            		label2.Text = Product.products[i].GetName();
+            		indexPrice = Product.products[i].GetPrice();
+            		this.myParent.ProductName = Product.products[i].GetName();
+            		this.myParent.CurrentPrice = indexPrice;
+            		break;
+            	}
+            }
+            
             int NumSold = int.Parse(textBox2.Text);
             string Date = (textBox3.Text + "/" + textBox4.Text + "/" + textBox5.Text);
-            int indexNum = (Product.products[index].GetAmount());
-            double indexPrice = (Product.products[index].GetPrice());
+            label4.Text = indexName;
             label3.Text = indexNum.ToString();
             if (NumSold > indexNum){
                 MessageBox.Show("This sale is more than you have in stock!");
@@ -73,10 +88,11 @@ namespace Final_Project_Inventory
                 this.myParent.DateInput = Date;
                 this.myParent.Amount = indexNum - NumSold;
                 this.myParent.ModType = ("Sale(" + NumSold + ")     ");
-                this.myParent.MoneyGained = ((NumSold * indexPrice) * myParent.TaxRate);
-                Product.products[index].SetAmount(indexNum - NumSold);
+                this.myParent.MoneyGained = (NumSold * indexPrice);
+//                Product.products[index].SetAmount(indexNum - NumSold);
                 this.myParent.AddingProduct = false;
                 this.myParent.SellingProduct = true;
+                this.myParent.RestockingProduct = false;
                 myParent.ManagerFormLoad(null,null);
                 myParent.Show();
                 this.Hide();

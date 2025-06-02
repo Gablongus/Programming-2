@@ -35,11 +35,12 @@ namespace Final_Project_Inventory
 	        	
 	        	
 	        	this.myParent.ProductName = ProdName;
-        		this.myParent.Amount = StartAmount;
+        		this.myParent.StartingAmount = StartAmount;
         		this.myParent.CurrentPrice = Price;
         		this.myParent.DateInput = Date;
         		this.myParent.ModType = "NewProduct:";
         		this.myParent.SellingProduct = false;
+        		this.myParent.RestockingProduct = false;
         		this.myParent.AddingProduct = true;
         		myParent.ManagerFormLoad(null, null);
 	        	myParent.Show();

@@ -21,6 +21,7 @@ namespace Final_Project_Inventory
         private Form myParent;
         public string CompanyName {get; set;}
         
+        public int StartingAmount {get; set;}
         public string ProductName {get; set;}
         public int Amount {get; set;}
         public double CurrentPrice {get; set;}
@@ -31,9 +32,12 @@ namespace Final_Project_Inventory
         public int AmountSold {get; set;}
         public double MoneyGained {get; set;}
         
+        public int AmountGained {get; set;}
+        
         public bool AddingProduct {get; set;}
         public bool SellingProduct {get; set;}
-        public double TaxRate {get; set;}
+        public bool RestockingProduct {get; set;}
+        
         
     
         
@@ -56,10 +60,15 @@ namespace Final_Project_Inventory
         {
             label1.Text = CompanyName;
             if (AddingProduct == true) {
-        	Product.products.Add(new Product(ModType, ProductName, Amount, CurrentPrice, DateInput));
+        	Product.products.Add(new Product(ModType, ProductName, StartingAmount, CurrentPrice, DateInput));
         	listBox1.Items.Add(Product.products[Product.products.Count-1].ToString());
             }
             if (SellingProduct == true) {
+                Product.products.Add(new Product(ModType, ProductName, Amount, CurrentPrice, DateInput));
+                listBox1.Items.Add(Product.products[Product.products.Count-1].ToString());
+                //listBox1.Items.Add(ModType + "(" + AmountSold + ")\t" + Product.products[Index].ToString());
+            }
+            if (RestockingProduct == true) {
                 Product.products.Add(new Product(ModType, ProductName, Amount, CurrentPrice, DateInput));
                 listBox1.Items.Add(Product.products[Product.products.Count-1].ToString());
                 //listBox1.Items.Add(ModType + "(" + AmountSold + ")\t" + Product.products[Index].ToString());
