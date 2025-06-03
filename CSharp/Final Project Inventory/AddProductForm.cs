@@ -42,6 +42,7 @@ namespace Final_Project_Inventory
         		this.myParent.SellingProduct = false;
         		this.myParent.RestockingProduct = false;
         		this.myParent.AddingProduct = true;
+        		this.myParent.AdjustingPrice = false;
         		myParent.ManagerFormLoad(null, null);
 	        	myParent.Show();
 	        	this.Hide();
@@ -58,6 +59,8 @@ namespace Final_Project_Inventory
         {
             this.myParent.SellingProduct = false;
             this.myParent.AddingProduct = false;
+            this.myParent.RestockingProduct = false;
+            this.myParent.AdjustingPrice = false;
             myParent.ManagerFormLoad(null, null);
         	myParent.Show();
         	this.Hide();

@@ -37,6 +37,7 @@ namespace Final_Project_Inventory
         public bool AddingProduct {get; set;}
         public bool SellingProduct {get; set;}
         public bool RestockingProduct {get; set;}
+        public bool AdjustingPrice {get; set;}
         
         
     
@@ -72,6 +73,10 @@ namespace Final_Project_Inventory
                 Product.products.Add(new Product(ModType, ProductName, Amount, CurrentPrice, DateInput));
                 listBox1.Items.Add(Product.products[Product.products.Count-1].ToString());
                 //listBox1.Items.Add(ModType + "(" + AmountSold + ")\t" + Product.products[Index].ToString());
+            }
+            if (AdjustingPrice == true) {
+               Product.products.Add(new Product(ModType, ProductName, Amount, CurrentPrice, DateInput));
+               listBox1.Items.Add(Product.products[Product.products.Count-1].ToString());
             }
         	
         }
@@ -111,6 +116,20 @@ namespace Final_Project_Inventory
         {
             RestockForm Res = new RestockForm(this);
             Res.Show();
+            this.Hide();
+        }
+        
+        void Button5Click(object sender, EventArgs e)
+        {
+            AdjustPriceForm Adj = new AdjustPriceForm(this);
+            Adj.Show();
+            this.Hide();
+        }
+        
+        void Button2Click(object sender, EventArgs e)
+        {
+            ViewSalesForm VSF = new ViewSalesForm(this);
+            VSF.Show();
             this.Hide();
         }
     }

@@ -58,6 +58,10 @@
     <Compile Include="AddSaleForm.Designer.cs">
       <DependentUpon>AddSaleForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdjustPriceForm.cs" />
+    <Compile Include="AdjustPriceForm.Designer.cs">
+      <DependentUpon>AdjustPriceForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs" />
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
@@ -73,6 +77,10 @@
     <Compile Include="RestockForm.Designer.cs">
       <DependentUpon>RestockForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewSalesForm.cs" />
+    <Compile Include="ViewSalesForm.Designer.cs">
+      <DependentUpon>ViewSalesForm.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AddProductForm.resx">
@@ -81,11 +89,17 @@
     <EmbeddedResource Include="AddSaleForm.resx">
       <DependentUpon>AddSaleForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AdjustPriceForm.resx">
+      <DependentUpon>AdjustPriceForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ManagerForm.resx">
       <DependentUpon>ManagerForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RestockForm.resx">
       <DependentUpon>RestockForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewSalesForm.resx">
+      <DependentUpon>ViewSalesForm.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
