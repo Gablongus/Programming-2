@@ -15,10 +15,15 @@ C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Final P
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.AddSaleForm.resources
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.ManagerForm.resources
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:\Users\schraedl.g\Desktop\Programming 2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.RestockForm.resources
 C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.AddSaleForm.resources
 C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.ManagerForm.resources
 C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.RestockForm.resources
+=======
+C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.AddSaleForm.resources
+C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.ManagerForm.resources
+>>>>>>> Stashed changes
 =======
 C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.AddSaleForm.resources
 C:\Users\gavin\OneDrive\Desktop\Programming II HOME\Programming-2\CSharp\Final Project Inventory\obj\Debug\Final_Project_Inventory.ManagerForm.resources
